@@ -6,7 +6,7 @@ import axios from "axios";
 export default function App() {
   const [state, setState] = useState({
     s: "",
-    results: "",
+    results: [],
     selected: ""
   });
 
